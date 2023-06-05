@@ -295,7 +295,7 @@ img {
 div.wrapper {
   width: 100%;
   max-width: 912px;
-  padding: 16px 32px;
+  padding: 1em;
   margin: 0 auto;
   /*border-radius: var(--br-border-radius);
   background: hsla(0, 0%, 94%, 70%);
@@ -320,6 +320,33 @@ div.wrapper {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+}
+
+h2.sub-heading {
+  /*font-size: 50px;*/
+  font-weight: var(--fw-font-weight-500);
+  letter-spacing: -0.5px;
+}
+
+p.headline-para {
+  margin: 2.5em 0;
+  font-weight: var(--fw-font-weight-500);
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+blockquote.quote {
+  font-style: italic;
+  font-size: 0.875rem;
+  border-left: 2px solid var(--clr-tertiary-800);
+  padding-left: 1em;
+  margin: 2em 0 2em 2em;
+}
+
+blockquote.quote cite {
+  display: block;
+  font-weight: bold;
+  margin-left: 1.25em;
 }
 
 /*# sourceMappingURL=main.css.map */
