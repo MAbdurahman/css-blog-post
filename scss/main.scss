@@ -235,6 +235,11 @@ p {
   margin-bottom: 1rem;
 }
 
+code {
+  color: var(--clr-tertiary-800);
+  font-weight: bold;
+}
+
 small, .text_small {
   font-size: 0.7rem;
 }
@@ -340,6 +345,24 @@ main.main-section {
   margin-bottom: 15em;
 }
 
+@media only screen and (max-width: 1539px) {
+  main.main-section {
+    margin-bottom: 12em;
+  }
+}
+
+@media only screen and (max-width: 1375px) {
+  main.main-section {
+    margin-bottom: 11em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  main.main-section {
+    /*padding-bottom: 1em;*/
+  }
+}
+
 /*=============================================
         hero styles
 ================================================*/
@@ -418,10 +441,14 @@ section.wrapper-inner {
   padding-bottom: 4em;
 
 }
-
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 1024px) {
   section.wrapper-inner {
-    padding-top: 4px;
+    padding-bottom: 2.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section.wrapper-inner {
+    padding-bottom: 2em;
   }
 }
 
@@ -435,6 +462,7 @@ section.wrapper-inner {
 
 
 .info-para {
+  margin: 1.875em 0;
   font-family: var(--ff-font-heading);
   font-size: .875rem;
   font-weight: bold;
@@ -486,7 +514,21 @@ footer.footer {
   min-width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: var(--clr-augmented-600);
+  background-color: var(--clr-primary-500);
+}
+
+@media only screen and (max-width: 1024px) {
+  footer.footer {
+    height: 21vh;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  footer.footer {
+    height: 20vh;
+    padding-top: 2em;
+    padding-bottom: 1.75em;
+  }
 }
 
 .footer-nav {
@@ -499,6 +541,13 @@ footer.footer {
   align-items: center;
 
 }
+
+@media only screen and (max-width: 1375px) {
+  .footer-nav {
+    margin-bottom: 0.75em;
+  }
+}
+
 
 .footer-nav-item:not(:last-child) {
   padding-right: 1.5em;
@@ -540,4 +589,12 @@ section.copyright {
   color: var(--clr-neutral-400);
   cursor: pointer;
 
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-nav {
+    height: 15vh;
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
 }
