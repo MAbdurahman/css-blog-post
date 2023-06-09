@@ -239,6 +239,7 @@ code {
   color: var(--clr-tertiary-800);
   font-weight: bold;
 }
+
 small, .text_small {
   font-size: 0.7rem;
 }
@@ -518,11 +519,11 @@ footer.footer {
 
 @media only screen and (max-width: 1024px) {
   footer.footer {
-    height: 14vh;
+    height: 21vh;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 685px) {
   footer.footer {
     height: 20vh;
     padding-top: 2em;
