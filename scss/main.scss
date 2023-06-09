@@ -235,6 +235,10 @@ p {
   margin-bottom: 1rem;
 }
 
+code {
+  color: var(--clr-tertiary-800);
+  font-weight: bold;
+}
 small, .text_small {
   font-size: 0.7rem;
 }
@@ -435,6 +439,7 @@ section.wrapper-inner {
 
 
 .info-para {
+  margin: 1.875em 0;
   font-family: var(--ff-font-heading);
   font-size: .875rem;
   font-weight: bold;
@@ -486,7 +491,7 @@ footer.footer {
   min-width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: var(--clr-augmented-600);
+  background-color: var(--clr-primary-500);
 }
 
 .footer-nav {
