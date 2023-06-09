@@ -344,6 +344,24 @@ main.main-section {
   margin-bottom: 15em;
 }
 
+@media only screen and (max-width: 1539px) {
+  main.main-section {
+    margin-bottom: 12em;
+  }
+}
+
+@media only screen and (max-width: 1375px) {
+  main.main-section {
+    margin-bottom: 11em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  main.main-section {
+    /*padding-bottom: 1em;*/
+  }
+}
+
 /*=============================================
         hero styles
 ================================================*/
@@ -422,10 +440,14 @@ section.wrapper-inner {
   padding-bottom: 4em;
 
 }
-
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 1024px) {
   section.wrapper-inner {
-    padding-top: 4px;
+    padding-bottom: 2.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section.wrapper-inner {
+    padding-bottom: 2em;
   }
 }
 
@@ -494,6 +516,20 @@ footer.footer {
   background-color: var(--clr-primary-500);
 }
 
+@media only screen and (max-width: 1024px) {
+  footer.footer {
+    height: 14vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer.footer {
+    height: 20vh;
+    padding-top: 2em;
+    padding-bottom: 1.75em;
+  }
+}
+
 .footer-nav {
   width: 100%;
   max-width: 912px;
@@ -504,6 +540,13 @@ footer.footer {
   align-items: center;
 
 }
+
+@media only screen and (max-width: 1375px) {
+  .footer-nav {
+    margin-bottom: 0.75em;
+  }
+}
+
 
 .footer-nav-item:not(:last-child) {
   padding-right: 1.5em;
@@ -545,4 +588,12 @@ section.copyright {
   color: var(--clr-neutral-400);
   cursor: pointer;
 
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-nav {
+    height: 15vh;
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
 }
